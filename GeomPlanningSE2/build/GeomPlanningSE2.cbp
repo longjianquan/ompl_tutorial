@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="GeomPlanningSE2" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\..\opt\ros\indigo\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\;CMake Files\..\..\..\..\..\opt\ros\indigo\share\ompl\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/ljq/ompl_tutorial/OMPL_Sample/GeomPlanningSE2/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ljq/ompl_tutorial/OMPL_Sample/GeomPlanningSE2/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ljq/ompl_tutorial/OMPL_Sample/GeomPlanningSE2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ljq/ompl_tutorial/OMPL_Sample/GeomPlanningSE2/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ljq/ompl_tutorial/OMPL_Sample/GeomPlanningSE2/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/ljq/ompl_tutorial/OMPL_Sample/GeomPlanningSE2/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ljq/ompl_tutorial/OMPL_Sample/GeomPlanningSE2/build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ljq/ompl_tutorial/OMPL_Sample/GeomPlanningSE2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ljq/ompl_tutorial/OMPL_Sample/GeomPlanningSE2/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ljq/ompl_tutorial/OMPL_Sample/GeomPlanningSE2/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/ljq/ompl_tutorial/OMPL_Sample/GeomPlanningSE2/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ljq/ompl_tutorial/OMPL_Sample/GeomPlanningSE2/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ljq/ompl_tutorial/OMPL_Sample/GeomPlanningSE2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ljq/ompl_tutorial/OMPL_Sample/GeomPlanningSE2/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ljq/ompl_tutorial/OMPL_Sample/GeomPlanningSE2/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="GeomPlanningSE2">
+         <Option output="/home/ljq/ompl_tutorial/OMPL_Sample/GeomPlanningSE2/build/GeomPlanningSE2" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ljq/ompl_tutorial/OMPL_Sample/GeomPlanningSE2/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/opt/ros/indigo/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ljq/ompl_tutorial/OMPL_Sample/GeomPlanningSE2/build/Makefile&quot;  VERBOSE=1 GeomPlanningSE2" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ljq/ompl_tutorial/OMPL_Sample/GeomPlanningSE2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ljq/ompl_tutorial/OMPL_Sample/GeomPlanningSE2/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ljq/ompl_tutorial/OMPL_Sample/GeomPlanningSE2/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="GeomPlanningSE2/fast">
+         <Option output="/home/ljq/ompl_tutorial/OMPL_Sample/GeomPlanningSE2/build/GeomPlanningSE2" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ljq/ompl_tutorial/OMPL_Sample/GeomPlanningSE2/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/opt/ros/indigo/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ljq/ompl_tutorial/OMPL_Sample/GeomPlanningSE2/build/Makefile&quot;  VERBOSE=1 GeomPlanningSE2/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ljq/ompl_tutorial/OMPL_Sample/GeomPlanningSE2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ljq/ompl_tutorial/OMPL_Sample/GeomPlanningSE2/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ljq/ompl_tutorial/OMPL_Sample/GeomPlanningSE2/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/ljq/ompl_tutorial/OMPL_Sample/GeomPlanningSE2/GeomPlanningSE2.cpp">
+         <Option target="GeomPlanningSE2"/>
+      </Unit>
+      <Unit filename="/home/ljq/ompl_tutorial/OMPL_Sample/GeomPlanningSE2/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/ljq/ompl_tutorial/OMPL_Sample/GeomPlanningSE2/../../../../../opt/ros/indigo/share/ompl/ompl-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\indigo\share\ompl\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
